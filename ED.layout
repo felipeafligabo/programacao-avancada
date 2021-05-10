@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout>
+	<Files>
+		<File Name="main.cpp" Top="No" Tabpos="1" TopLine="1">
+			<Cursor Line="18" Column="4"/>
+		</File>
+		<File Name="Conta.h" Top="Yes" Tabpos="2" TopLine="15">
+			<Cursor Line="16" Column="18"/>
+		</File>
+		<File Name="ContaCorrente.h" Top="No" Tabpos="3" TopLine="1">
+			<Cursor Line="2" Column="21"/>
+		</File>
+		<File Name="ContaPoupanca.h" Top="No" Tabpos="4" TopLine="1">
+			<Cursor Line="2" Column="21"/>
+		</File>
+		<File Name="Cliente.h" Top="No" Tabpos="5" TopLine="1">
+			<Cursor Line="3" Column="21"/>
+		</File>
+	</Files>
+</Layout>
