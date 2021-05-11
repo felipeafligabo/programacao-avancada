@@ -36,7 +36,7 @@ public:
   
   // Destrutor
   
-	~Conta(){
+virtual	~Conta(){
 	   	delete _cliente;
 	}; 
 

@@ -78,11 +78,12 @@ Segunda situação
    	 Conta *contas[100]; // ex7
  	 contas[1] = new Conta(1234,"felipe");
  	 
-	O erro ocorre visto que não é o correto alocar um objeto de uma classe abstrata,visto que é pra ser apenas uma classe 
-	de modelo e não para utilização
+	O erro ocorre visto que não é o correto alocar um objeto de uma classe abstrata,
+	uma vez que que é pra ser apenas uma classe de modelo e não é para instanciar objetos dela, 
+	Ex de motivos de não utilização : Classe é modelo, Há metodos não implementados
+	Para corrigir a situação basta utilizar para instanciar os objetos as classes filhas.
 	
-	
-	
+
  	 
 
 */ 	
