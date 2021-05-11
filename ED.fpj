@@ -30,10 +30,10 @@
 	<AppType Value="CONSOLE"/>
 	<Files>
 		<File Name="main.cpp"/>
-		<File Name="Conta.h"/>
-		<File Name="ContaCorrente.h"/>
-		<File Name="ContaPoupanca.h"/>
-		<File Name="Cliente.h"/>
-		<File Name="Conta.cpp"/>
+		<File Name="conta.h"/>
+		<File Name="contaCorrente.h"/>
+		<File Name="contaPoupanca.h"/>
+		<File Name="cliente.h"/>
+		<File Name="conta.cpp"/>
 	</Files>
 </Project>
