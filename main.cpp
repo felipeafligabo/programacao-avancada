@@ -39,7 +39,35 @@ int main()
     cc1.aplicaJurosDiarios(10);
     cc1.extrato();
 	
- // Fim exercicio 3 
+ // Fim exercicio 3
+ 
+ 
+ // Ex 6 e 7
+ /*
+ 	 1º Situação é que e que ocorre em ambos é que não há um construtor vazio
+	 Para Conta Corrente e Conta, então uma solução seria criar um construtor vazio para Conta Corrente
+	 e em seguida para Conta visto que após corrigir o ex6 ira pro erro do ex 7. Contudo 
+	 Esse erro não vai resolver a situação, apenas corrigira o erro de complicação
+	 
+	 Para corrigir o erro seria necessário:
+	 
+	  ContaCorrente contasCorrentes[100];// ex 6
+ 	  Conta contas[100]; // ex 7
+	 
+ */	
+ 	
+/*
+Segunda situação
+
+ 	
+ 	 // ContaCorrente *contasCorrentes[100];// ex 6
+ 	// Conta *contas[100]; // ex7
+ 
+*/	
+ 	
+ 	
+ 	
+ // Fim ex 6 e 7 
   
   
   return 0;

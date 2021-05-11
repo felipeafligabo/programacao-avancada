@@ -3,6 +3,7 @@
 using namespace std;
 class Cliente {
 	
+// Atributos	
 private:
 	string _nome;
 
@@ -16,13 +17,13 @@ public:
 	
 // Getters e Setters
 
-void setNome(string nome){
-	_nome = nome;
-}
+	void setNome(string nome){
+	   	_nome = nome;
+	}
 
-string getNome() const {
-	return _nome;
-}
+	string getNome() const {
+	   	return _nome;
+	}
 	
 };	
 	

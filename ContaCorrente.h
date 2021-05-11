@@ -8,10 +8,12 @@ class ContaCorrente : public Conta {
 	
 public:
 // Construtor
-
+	//ContaCorrente(){}; Para validação ex 6 e 7
+	
 	ContaCorrente(int numero,string nome): Conta(numero,nome){
 		cout << "\n Criando conta " << numero << " do cliente " << nome << endl; // Exercicio 5
 	}
+	
 // Destrutor
 
 	~ContaCorrente(){
