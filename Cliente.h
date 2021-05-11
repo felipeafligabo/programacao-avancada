@@ -1,4 +1,4 @@
-#include <string.h>
+#include <string>
 #pragma once
 using namespace std;
 class Cliente {
@@ -7,18 +7,22 @@ private:
 	string _nome;
 
 public:
-	// Construtor
+// Construtor
+
 	Cliente(string nome): _nome(nome){}	
-	// Destrutor
+	
+// Destrutor
 	~Cliente(){};
 	
-	// Getters e Setters
-	void setNome(string nome){
-		_nome = nome;
-	}
-	string getNome() const {
-		return _nome;
-	}
+// Getters e Setters
+
+void setNome(string nome){
+	_nome = nome;
+}
+
+string getNome() const {
+	return _nome;
+}
 	
 };	
 	

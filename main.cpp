@@ -6,30 +6,40 @@ using namespace std;
 int main()
 {
 	
+// Exercicio 3
+	ContaCorrente cc1 = ContaCorrente(1,"Felipe");
+	ContaCorrente cc2 = ContaCorrente(2,"Joao");
   
-  ContaCorrente c1 = ContaCorrente(1,"Felipe");
-  ContaPoupanca c2 = ContaPoupanca(3,"Ligabo");
+	ContaPoupanca cp1 = ContaPoupanca(3,"Chaua");
+	ContaPoupanca cp2 = ContaPoupanca(4,"Fernando");
   
-  c1.extrato();
-  c1.deposita(500);
-  
-  c2.extrato();
-  c2.deposita(1000);
- // c1.extrato();
- // c1.retira(50);
- // c1.extrato();
-  
- // c2.extrato();
-  
-  //c1.transfere(&c2);
-  
-  
-  c1.aplicaJurosDiarios(10);
-  c1.extrato();
-  c2.aplicaJurosDiarios(10);
-  c2.extrato();
-  
-  
+	// Depositos
+	
+	cc1.deposita(100); cc2.deposita(200);
+  	cp1.deposita(300); cp2.deposita(400);
+   
+    // Retiradas (Metade de cada)
+	cc1.retira(50); cc2.retira(100);  
+	cp1.retira(150); cp2.retira(200); 
+	
+	// Extrato
+	cout << "\n\nDeposito e Retirada" << endl;
+	cc1.extrato(); cc2.extrato();  
+	cp1.extrato(); cp2.extrato(); 
+	
+	cout << "\n\nTransferencia" << endl;
+	// Transfere (valor total 50) 
+    cc1.transfere(&cc2);
+    cc1.extrato(); cc2.extrato(); 
+    
+    
+    // Juros
+    cout << "\n\n Aplicacao Juros" << endl;
+    cc1.deposita(500);
+    cc1.aplicaJurosDiarios(10);
+    cc1.extrato();
+	
+ // Fim exercicio 3 
   
   
   return 0;

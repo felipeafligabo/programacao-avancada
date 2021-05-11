@@ -34,5 +34,6 @@
 		<File Name="ContaCorrente.h"/>
 		<File Name="ContaPoupanca.h"/>
 		<File Name="Cliente.h"/>
+		<File Name="Conta.cpp"/>
 	</Files>
 </Project>
