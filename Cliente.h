@@ -16,7 +16,7 @@ public:
 	void setNome(string nome){
 		_nome = nome;
 	}
-	string getNome(){
+	string getNome() const {
 		return _nome;
 	}
 	

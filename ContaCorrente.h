@@ -4,10 +4,25 @@ using namespace std;
 
 
 class ContaCorrente : public Conta {
-private:
-		
-public:
-	ContaCorrente(int numero): Conta(numero){}
+
 	
-	~ContaCorrente();
+public:
+	ContaCorrente(int numero,string nome): Conta(numero,nome){}
+	
+	~ContaCorrente(){
+		delete _cliente;
+	};
+	
+	
+void aplicaJurosDiarios(int dias){
+	// Percentual fixo de 1% 
+    _saldo += calculaJuros(dias,_saldo,1.0);
+}
+
+// Impressao sobrescrita com ajuste
+void extrato(){	
+	cout << "----Extrato Conta Corrente ----" << endl;
+	Conta::extrato();
+}
+
 };

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout>
 	<Files>
-		<File Name="main.cpp" Top="No" Tabpos="1" TopLine="1">
-			<Cursor Line="18" Column="4"/>
+		<File Name="main.cpp" Top="Yes" Tabpos="1" TopLine="1">
+			<Cursor Line="12" Column="3"/>
 		</File>
-		<File Name="Conta.h" Top="Yes" Tabpos="2" TopLine="15">
-			<Cursor Line="16" Column="18"/>
+		<File Name="Conta.h" Top="No" Tabpos="2" TopLine="34">
+			<Cursor Line="70" Column="20"/>
 		</File>
 		<File Name="ContaCorrente.h" Top="No" Tabpos="3" TopLine="1">
-			<Cursor Line="2" Column="21"/>
+			<Cursor Line="16" Column="1"/>
 		</File>
 		<File Name="ContaPoupanca.h" Top="No" Tabpos="4" TopLine="1">
-			<Cursor Line="2" Column="21"/>
+			<Cursor Line="20" Column="36"/>
 		</File>
 		<File Name="Cliente.h" Top="No" Tabpos="5" TopLine="1">
-			<Cursor Line="3" Column="21"/>
+			<Cursor Line="19" Column="25"/>
 		</File>
 	</Files>
 </Layout>
